@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @OpenAPIDefinition(
         info = @Info(
-                title = "API de Clientes",
+                title = "API de clientes y créditos",
                 version = "1.0.0",
-                description = "Api para la gestión de los clientes"
+                description = "Api para la gestión de los clientes y créditos"
         )
 )
 public class OpenApiConfig {
