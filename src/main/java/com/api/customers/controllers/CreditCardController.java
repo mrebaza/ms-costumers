@@ -1,7 +1,6 @@
 package com.api.customers.controllers;
 
 import com.api.customers.models.CreditCard;
-import com.api.customers.services.credit.CreditServiceImpl;
 import com.api.customers.services.creditCard.CreditCardServiceImpl;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

@@ -1,6 +1,5 @@
 package com.api.customers.services.creditCard;
 
-import com.api.customers.models.Credit;
 import com.api.customers.models.CreditCard;
 import com.api.customers.repositorys.CreditCardRepo;
 import org.springframework.beans.factory.annotation.Autowired;
