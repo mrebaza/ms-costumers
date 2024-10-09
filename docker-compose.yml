@@ -1,8 +1,8 @@
 version: "3.9"
 services:
   spring-api-image:
-    image: api-ms-customer
-    container_name: api-ms-customer
+    image: ms-customers
+    container_name: ms-customers
     build:
       context: .
       dockerfile: Dockerfile

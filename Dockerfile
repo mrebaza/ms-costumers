@@ -3,7 +3,7 @@ FROM eclipse-temurin:21.0.3_9-jdk
 LABEL authors="mrebazaa"
 
 # INFORMAR EL PUERTO DONDE SE EJECUTA EL CONTENEDOR
-EXPOSE 8080
+EXPOSE 8081
 # DEFINIR EL DIRECTORIO RAIZ
 WORKDIR /root
 
@@ -25,4 +25,4 @@ RUN ./mvnw clean install -DskipTests
 ENTRYPOINT ["java", "-jar","/root/target/rest-0.0.1-SNAPSHOT.jar"]
 
 # comando para crear la imagen
-# docker build -t "api-customer"
+# docker build -t "ms-customers"
